@@ -15,8 +15,6 @@ export default defineNuxtConfig({
 
     colorMode: { preference: "system", fallback: "dark", classSuffix: "" },
 
-    plugins: [{ src: "node_modules/nuxtjs-phaser", mode: "client" }],
-
     fonts: {
         defaults: {
             weights: [300, 400, 600, 700],
